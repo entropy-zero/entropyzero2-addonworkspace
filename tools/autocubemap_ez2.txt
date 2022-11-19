@@ -1,0 +1,12 @@
+//////////////////////////////
+// Autocubemap
+//
+// List maps to automatically generate cubemaps for in this file
+//
+//////////////////////////////
+"AutoCubemap"
+{
+    "shadowwalker_hvt" "1"
+    "shadowwalker2_maplabs" "1"
+    "tt11_shadowwalker3" "1"
+}

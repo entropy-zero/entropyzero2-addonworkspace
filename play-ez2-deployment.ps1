@@ -1,0 +1,1 @@
+..\..\common\EntropyZero2\hl2.exe -game ${pwd} -window -noborder -dev

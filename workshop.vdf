@@ -1,0 +1,23 @@
+"workshopitem"
+{
+	// This is the appid for Entropy : Zero 2. Don't change this or the addon will be published to a different app's workshop.
+	"appid"		"1583720"
+
+	// The published file id will be 0 until you upload the addon for the first time, at which point SteamCMD will update the field to the appropriate id. 
+	"publishedfileid"		"0"
+
+	// This path assumes that Steam is installed at the root of the D: drive. Please update this path to wherever your copy is installed.
+	"contentfolder"		"D:\\Steam\\steamapps\\sourcemods\\EntropyZero2_AddonWorkspace\\dist"
+
+	// You can include an icon for the thumbnail here.
+	// "previewfile"		"D:\\Steam\\steamapps\\sourcemods\\EntropyZero2_AddonWorkspace\\workshop_icon.jpg"
+	
+	// Visibility 2 is hidden
+	"visibility"		"2"
+	
+	// Update the title field with your workshop addon's name.
+	"title"		"My Entropy : Zero 2 Workshop Addon"
+	
+	// Every time you upload you should be a meaningful change note in this field
+	"changenote"		"Version 0.0.0"
+}
