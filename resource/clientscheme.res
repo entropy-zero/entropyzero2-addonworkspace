@@ -690,26 +690,20 @@ Scheme
 		{
 			"1"
 			{
-				//"name"  "Courier New"
-				"name"  "Frak"
+				"name"		"Frak"
 				"tall"			"40"
-				"tall_hidef"	"40"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
-				"custom"	"1" [$OSX]
 				"yres"	"1 700"
 			}
 			"2"
 			{
-				//"name"  "Courier New"
-				"name"  "Frak"
+				"name"		"Frak"
 				"tall"			"25"
-				"tall_hidef"	"25"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
-				"custom"	"1" [$OSX]
 			}
 		}
 		ClientTitleFont_Opening
@@ -719,11 +713,9 @@ Scheme
 				//"name"  "Courier New"
 				"name"  "Frak"
 				"tall"			"80"
-				"tall_hidef"	"80"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
-				"custom"	"1" [$OSX]
 				"yres"	"1 700"
 			}
 			"2"
@@ -731,11 +723,9 @@ Scheme
 				//"name"  "Courier New"
 				"name"  "Frak"
 				"tall"			"100"
-				"tall_hidef"	"100"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
-				"custom"	"1" [$OSX]
 			}
 		}
 		CreditsLogo
@@ -778,22 +768,26 @@ Scheme
 			"1"
 			{
 				//"name"		"Verdana" [!$OSX]
-				"name"		"Verdana Italic" [!$OSX]
+				"name"		"Sans Italic" [$LINUX]
+				"name"		"Verdana Italic" [$WINDOWS]
 				"name"		"Courier Bold Italic" [$OSX]
-				//"tall"		"9"
 				"tall"		"12"
 				"weight"	"900"
+				"italic"	"1" [$LINUX]
 				"antialias" "1"
 				"yres"	"1 700"
 			}
 			"2"
 			{
 				//"name"		"Verdana" [!$OSX]
-				"name"		"Verdana Italic" [!$OSX]
+				"name"		"Sans Italic" [$LINUX]
+				"name"		"Verdana Italic" [$WINDOWS]
 				"name"		"Courier Bold Italic" [$OSX]
 				//"tall"		"9"
-				"tall"		"10"
+				"tall"		"12" [$LINUX]
+				"tall"		"10" [!$LINUX]
 				"weight"	"900"
+				"italic"	"1" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -801,21 +795,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana Italic" [!$OSX]
+				"name"		"Sans Italic" [$LINUX]
+				"name"		"Verdana Italic" [$WINDOWS]
 				"name"		"Courier Bold Italic" [$OSX]
 				//"tall"		"9"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
+				"italic"	"1" [$LINUX]
 				"yres"	"1 700"
 			}
 			"2"
 			{
-				"name"		"Verdana Italic" [!$OSX]
+				"name"		"Sans Italic" [$LINUX]
+				"name"		"Verdana Italic" [$WINDOWS]
 				"name"		"Courier Bold Italic" [$OSX]
 				//"tall"		"9"
 				"tall"		"16"
 				"weight"	"750"
+				"italic"	"1" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -823,8 +821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Frak" [!$OSX]
-				"name"		"Courier Bold" [$OSX]
+				"name"		"Frak"
 				"tall"		"16"
 				"weight"	"750"
 				"antialias" "1"
@@ -832,10 +829,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Frak" [!$OSX]
-				"name"		"Courier Bold" [$OSX]
+				"name"		"Frak"
 				//"tall"		"9"
-				"tall"		"14"
+				"tall"		"16" [$LINUX]
+				"tall"		"14" [!$LINUX]
 				"weight"	"750"
 				"antialias" "1"
 			}
@@ -844,9 +841,7 @@ Scheme
 		{
 			"1"
 			{
-				//"name"		"Verdana" [!$OSX]
-				"name"		"Frak" [!$OSX]
-				"name"		"Courier Bold" [$OSX]
+				"name"		"Frak"
 				//"tall"		"9"
 				"tall"		"18"
 				"weight"	"900"
@@ -855,9 +850,7 @@ Scheme
 			}
 			"2"
 			{
-				//"name"		"Verdana" [!$OSX]
-				"name"		"Frak" [!$OSX]
-				"name"		"Courier Bold" [$OSX]
+				"name"		"Frak"
 				//"tall"		"9"
 				"tall"		"16"
 				"weight"	"900"
@@ -1093,3 +1086,5 @@ Scheme
 	}
 
 }
+
+#base "clientscheme_steaminput.res"
