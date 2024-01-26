@@ -67,6 +67,12 @@
 	}
 	"11"
 	{
+		"label" "#GameUI_GameMenu_Workshop"
+		"command" "engine workshop_publish"
+		"InGameOrder" "75"
+	}
+	"12"
+	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
 		"InGameOrder" "80"
